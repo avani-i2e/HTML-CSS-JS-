@@ -1,0 +1,25 @@
+/* Custom styling for titles and descriptions */
+.container h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+    color: #333;
+}
+
+.accordion-button {
+    font-weight: bold;
+    color: #3f51b5;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e0e0e0;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #030303;
+
+}
