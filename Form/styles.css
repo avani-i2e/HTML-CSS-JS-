@@ -3,120 +3,70 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('https://cutshort.io/horizontal-og-image?img=https://cdn.cutshort.io/public/companies/592be684b49ac10d0271463f/i2e-consulting-pvt-ltd-logo'); 
-    background-size: cover;
-    background-position: center;
+    margin: 0;
+    background-color: #f9f9f9;
     font-family: Arial, sans-serif;
-    color: #fff;
 }
-
 
 .form-container {
-    width: 98%;
+    width: 100%;
     max-width: 400px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-
-.form-container:hover {
-    transform: scale(1.02);
-}
-
 
 .contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
-
 
 .form-group {
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
-
 
 .contact-form label {
     display: block;
-    margin-bottom: 8px;
-    color: #333;
-    font-weight: 600;
-    font-size: 0.9em;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    width: 98%;
-    padding: 12px;
+    width: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 5px;
     font-size: 1em;
-    outline: none;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
 }
 
-.contact-form input[type="text"]:focus,
-.contact-form input[type="email"]:focus,
-.contact-form textarea:focus {
-    border-color: #0077cc;
-    box-shadow: 0 4px 8px rgba(0, 119, 204, 0.2);
-}
-
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-    color: #999;
-    font-style: bold;
+.contact-form textarea {
+    resize: none;
 }
 
 .button-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
 .btn {
-    padding: 12px 20px;
+    padding: 10px;
     font-size: 1em;
-    cursor: pointer;
     border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .submit-btn {
-    background-color: #0077cc;
-    color: #ffffff;
-}
-
-.submit-btn:hover {
-    background-color: #005da0;
-    box-shadow: 0 4px 10px rgba(0, 119, 204, 0.4);
+    background-color: #007bff;
+    color: white;
 }
 
 .cancel-btn {
-    background-color: #d73a3a;
-    color: #ffffff;
-}
-
-.cancel-btn:hover {
-    background-color: #c62828;
-    box-shadow: 0 4px 10px rgba(226, 38, 38, 0.4);
-}
-
-@media (max-width: 500px) {
-    .form-container {
-        padding: 15px;
-    }
-
-    .btn {
-        padding: 10px;
-        font-size: 0.9em;
-    }
+    background-color: #dc3545;
+    color: white;
 }
