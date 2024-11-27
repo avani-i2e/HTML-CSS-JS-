@@ -56,9 +56,7 @@ body {
     transition: color 0.3s ease;
 }
 
-.card:hover .card-title {
-    color: #0056b3;
-}
+
 
 .card-description {
     font-size: 1em;
@@ -67,20 +65,4 @@ body {
 }
 
 
-.card-button {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #ffffff;
-    background-color: #0056b3;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
 
-.card-button:hover {
-    background-color: #003d80;
-}
